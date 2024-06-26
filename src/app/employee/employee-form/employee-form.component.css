@@ -1,0 +1,15 @@
+.btn-register {
+    margin: 1px;
+    padding: 5px 10px;
+    background-color: #5f9ea0;
+    border: none;
+    color: white;
+    font-size: 12px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.container-form {
+  text-align: center;
+}

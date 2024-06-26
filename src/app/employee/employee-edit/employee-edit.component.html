@@ -1,0 +1,14 @@
+<div class="container-edit">
+  <input
+  [(ngModel)]="employee.name"
+  placeholder="Insira nome do funcionário"
+  type="text"
+  />
+  <input
+  class="input-container"
+  type="text"
+  placeholder="Insira o cargo do funcionário"
+  [(ngModel)]="employee.position"
+/>
+<button class="button" (click)="update()">Salvar</button>
+</div>

@@ -1,0 +1,70 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, sans-serif;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: linear-gradient(135deg, #f0f8ff, #e6e6fa);
+  background-size: 200% 200%;
+  animation: gradientAnimation 15s ease infinite;
+}
+
+@keyframes gradientAnimation {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}
+
+.container {
+  text-align: left;
+}
+
+h1 {
+  font-size: 2em;
+  color: #333;
+  text-align: center;
+}
+
+li {
+  font-size: 18px;
+  color: #131111;
+  text-align: center;
+  list-style-type: none
+}
+
+.button {
+  margin: 1px;
+  padding: 5px 10px;
+  background-color: #5f9ea0;
+  border: none;
+  color: white;
+  font-size: 12px;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.button:hover {
+  background-color: #4682b4;
+}
+
+.add-employee-btn {
+  padding: 5px 10px;
+  background-color: #5f9ea0;
+  border: none;
+  color: white;
+  font-size: 12px;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  display: block;
+  margin: 0 auto;
+}
